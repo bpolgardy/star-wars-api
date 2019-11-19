@@ -1,0 +1,25 @@
+table {
+    background-color: whitesmoke;
+}
+
+body::after {
+    content: "";
+    background-image: url('../img/sw-war-background-4.jpg');
+    background-repeat: repeat;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+th, td {
+    text-align: center;
+    /*white-space: normal;*/
+}
+
+#prev-btn, #next-btn {
+    color: white;
+}
