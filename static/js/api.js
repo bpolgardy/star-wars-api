@@ -76,4 +76,4 @@ Handlebars.registerHelper('diameterFormatter', function(diameter) {
     return diameter === 'unknown' ? diameter: `${parseInt(diameter).toLocaleString()} km`
 })
 
-getData('https://swapi.co/api/planets/');
+getData('https://swapi.dev/api/planets/');
